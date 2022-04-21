@@ -1,6 +1,1 @@
-import './style.css'
-
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+if(location.pathname === '/a') window.location.replace('https://gaute-talks.netlify.app/which-framework-do-you-like-voting/')
